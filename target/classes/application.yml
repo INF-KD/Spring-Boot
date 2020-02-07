@@ -1,0 +1,19 @@
+app:
+  dev: "KD"
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "infinity.godpower@gmail.com" #Quotes needed because sometimes password have special characters
+    password: "k@rmd|p1332"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+mail:
+  smtp:
+    debug: true
